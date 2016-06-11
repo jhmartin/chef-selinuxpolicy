@@ -20,9 +20,10 @@ These attributes affect the way all of the LWRPs are behaving.
 
 Usage
 -----
+* `selinux_policy::install` - Installs SELinux policy management tools
 
 This cookbook's functionality is exposed via resources, so it should be called from a wrapper cookbook.
-Remember to add `depends 'selinux_policy'` to your `metadata.rb`, and `selinux_policy::install` to the runlist.
+Remember to add `depends 'selinux_policy'` to your `metadata.rb`.
 
 ### boolean
 Represents an SELinux [boolean](http://wiki.gentoo.org/wiki/SELinux/Tutorials/Using_SELinux_booleans).
