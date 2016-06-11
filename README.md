@@ -38,7 +38,6 @@ Attributes:
 Example usage:
 
 ```ruby
-
 include_recipe 'selinux_policy::install'
 
 selinux_policy_boolean 'httpd_can_network_connect' do
